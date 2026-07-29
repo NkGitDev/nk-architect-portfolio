@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Narendra Kumar Joshi - Architectural Designer & 3D Spatial Expert</title>
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+  <!-- External Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header Section with Architectural Background Hero Banner -->
+  <header style="background: linear-gradient(rgba(15, 23, 42, 0.80), rgba(15, 23, 42, 0.95)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat; padding: 50px 20px 40px; text-align: center; color: #ffffff; border-bottom: 3px solid #38bdf8;">
+    <div style="display: inline-block; position: relative; margin-bottom: 15px;">
+      <img src="assets/NK Pic 1.png" alt="Narendra Kumar Joshi" class="profile-img" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; border: 4px solid #38bdf8; box-shadow: 0 8px 25px rgba(0,0,0,0.5);" onerror="this.src='https://via.placeholder.com/140?text=NK+Architect'" />
+    </div>
+    
+    <h1 style="font-size: 2.2rem; margin: 10px 0 5px; font-weight: 700; letter-spacing: 0.5px;">Narendra Kumar Joshi</h1>
+    <p class="subtitle" style="color: #cbd5e1; font-size: 1.1rem; margin-bottom: 25px;"><i class="fa-solid fa-compass-drafting" style="color: #38bdf8;"></i> 3D Architectural Designer & House Planner (10+ Years Experience)</p>
+    
+    <!-- Interactive Filter Badges -->
+    <div class="quick-badges" id="filter-badges">
+      <div class="badge active" data-filter="all"><i class="fa-solid fa-border-all"></i> All Designs</div>
+      <div class="badge" data-filter="plans"><i class="fa-solid fa-house-chimney text-warning"></i> 2D/3D House Plans</div>
+      <div class="badge" data-filter="interior"><i class="fa-solid fa-layer-group text-success"></i> Interior & Exterior Design</div>
+      <div class="badge" data-filter="vastu"><i class="fa-solid fa-compass text-danger"></i> Vastu & Site Planning</div>
+      <div class="badge" data-filter="elevation"><i class="fa-solid fa-building text-info"></i> 3D Elevation & Structure</div>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <!-- Section: Visual Showcase -->
+    <h2 class="section-title"><i class="fa-solid fa-image"></i> House Designs & Floor Plans Showcase</h2>
+    
+    <div class="portfolio-grid" id="portfolio-grid">
+
+      <!-- Category 1: 3D Elevation & Structure -->
+      <div class="project-card" data-category="elevation interior">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="3D Modern Front Elevation Design" class="project-img" />
+        <div class="project-info">
+          <h3><i class="fa-solid fa-building"></i> Modern 3D Front Elevation</h3>
+          <p>Complete front view design with modern structural lighting, material textures, and elevation work.</p>
+        </div>
+      </div>
+
+      <!-- Category 2: 2D/3D House Plans -->
+      <div class="project-card" data-category="plans vastu">
+        <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=80" alt="2D House Map Floor Plan Layout" class="project-img" />
+        <div class="project-info">
+          <h3><i class="fa-solid fa-ruler-combined"></i> 2D Plot Blueprint & Layout</h3>
+          <p>Accurate room planning, dimensions, door-window placements, and vastu-oriented spatial mapping.</p>
+        </div>
+      </div>
+
+      <!-- Category 3: Interior & Exterior Design -->
+      <div class="project-card" data-category="interior">
+        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80" alt="3D Interior Living Room Design" class="project-img" />
+        <div class="project-info">
+          <h3><i class="fa-solid fa-couch"></i> Interior Living Room & Kitchen</h3>
+          <p>Realistic 3D interior design with modular furniture, false ceiling lighting, and color palettes.</p>
+        </div>
+      </div>
+
+      <!-- Category 4: Vastu & Site Planning -->
+      <div class="project-card" data-category="vastu plans">
+        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80" alt="Vastu Site Layout and Plot Plan" class="project-img" />
+        <div class="project-info">
+          <h3><i class="fa-solid fa-compass"></i> Vastu Site Layout & Master Plan</h3>
+          <p>Outer boundary dimensioning, entrance orientation, and complete site layout execution.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Contact & Hire Section -->
+    <div class="contact-bar">
+      <h2><i class="fa-solid fa-phone-volume"></i> Contact for Architectural Planning & 3D Design</h2>
+      <p style="margin-top: 5px; color: var(--text-muted);">Available for House Planning, 3D Rendering, Vastu Orientation, and Layout Services.</p>
+      
+      <div class="contact-links">
+        <a href="mailto:nkjoshidev@gmail.com" class="btn"><i class="fa-solid fa-envelope"></i> Email Me</a>
+        <a href="https://in.linkedin.com/in/narendra-kumar-joshi" target="_blank" class="btn" style="background:#0a66c2; color:white;"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© Narendra Kumar Joshi | Senior Architectural Designer & Computational Specialist</p>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
