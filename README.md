@@ -2,7 +2,7 @@
 
 Welcome to the architectural design portfolio of **Narendra Kumar Joshi**, showcasing 10+ years of expertise in 2D/3D house planning, interior/exterior design, structural elevation, and spatial layout planning.
 
-🔗 **Live Portfolio:** [https://nkgitdev.github.io/architect-portfolio/](https://nkgitdev.github.io/architect-portfolio/)
+🔗 **Live Portfolio:** [https://nkgitdev.github.io/nk-architect-portfolio/](https://nkgitdev.github.io/nk-architect-portfolio/)
 
 ---
 
@@ -32,7 +32,7 @@ Welcome to the architectural design portfolio of **Narendra Kumar Joshi**, showc
 ## 📁 Repository Structure
 
 ```text
-architect-portfolio/
+nk-architect-portfolio/
 ├── index.html        # Main HTML layout
 ├── style.css         # Custom CSS & layout styling
 ├── script.js         # Dynamic category filtering & interactive logic
